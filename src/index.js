@@ -1,2 +1,13 @@
+import React from "react";
+import ReactDOM from "react-dom";
 require("./helloWorld")
-console.log("hello")
+
+const App = () => {
+        return(
+            <div className="App">
+                <h1> Hello, World! </h1>
+            </div>
+        );
+}
+
+ReactDOM.render(<App />, document.getElementById("root"));
